@@ -192,6 +192,7 @@ h6 {
     border-radius: 20px;
     padding-top: 18px;
     padding-bottom: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
 .hero .stat-item {
@@ -247,7 +248,7 @@ h6 {
 }
 
 .about .about-content .min {
-    font-size: 28px;
+    font-size: 27px;
     font-weight: 700;
     margin-bottom: 16px;
 }
@@ -311,7 +312,7 @@ h6 {
     position: absolute;
     width: 45%;
     right: 360px;
-    top: 75px;
+    top: 115px;
     border: 8px solid var(--background-color);
 }
 
@@ -648,7 +649,9 @@ ul {
     font-size: 14px;
     color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
-
+.footer{
+    padding-bottom: 0px;
+}
 .footer-links ul li a:hover {
     color: var(--accent-color);
 }
@@ -1103,7 +1106,9 @@ a {
 .accordion{
    --bs-accordion-btn-focus-box-shadow:0 0 0 0;
 }
-
+.form-control{
+    padding: 15px;
+}
 
 @keyframes bouncing {
     from {
