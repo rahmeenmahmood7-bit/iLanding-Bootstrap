@@ -610,6 +610,7 @@ ul {
     padding: 46px;
     border-radius: 16px;
     height: 100%;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
 }
 .right-contact .bor{
     border-radius: 32px;
@@ -618,7 +619,6 @@ ul {
 }
 .right-contact .t{
     margin-bottom: 32px;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
 }
 .right-contact .bor:hover{
     background-color: color-mix(in srgb, var(--accent-color), var(--background-color) 20%);
